@@ -4,9 +4,9 @@ jdk:
 
 addons:
   sonarcloud:
-    organization: “Z-github"
+    organization: “falessiinguniroma2it-github"
     token:
-      secure: “Y”
+      secure: “travis encrypt dfdf31fd8d77fbb5257a379189abd6a011c0f411”
 script:
 - ant build
 - sonar-scanner
