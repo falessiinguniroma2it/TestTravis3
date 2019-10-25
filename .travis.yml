@@ -4,7 +4,7 @@ jdk:
 
 addons:
   sonarcloud:
-    organization: falessiinguniroma2it-github
+    organization: falessiinguniroma2it
     token:
       secure: dfdf31fd8d77fbb5257a379189abd6a011c0f411
 script:
