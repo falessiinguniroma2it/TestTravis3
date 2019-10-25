@@ -4,9 +4,9 @@ jdk:
 
 addons:
   sonarcloud:
-    organization: “falessiinguniroma2it-github"
+    organization: falessiinguniroma2it-github
     token:
-      secure: “dfdf31fd8d77fbb5257a379189abd6a011c0f411”
+      secure: dfdf31fd8d77fbb5257a379189abd6a011c0f411
 script:
 - ant build
 - sonar-scanner
